@@ -1,9 +1,9 @@
-# Zsh Completion for Web History
+# Zsh Completion for Web Browser History
 
 ## Overview
 
 This project provides a tab-completion of web history in Zsh.
-It is designed for use with a Chromium based browser history (defaults to Google Chrome history).
+It is designed for use with a history file of a Chromium-based browser (defaults to Google Chrome history).
 The querying of the browser database file is provided via a command-line utility (`web-hist`).
 
 ### Features:
@@ -40,7 +40,7 @@ autoload -Uz compinit && compinit
 
 ### Basic Usage:
 ```shell
-web goog[TAB]  # Suggest URLs like 'www.google.com', 'www.google.fr'
+web www.goog[TAB]  # Suggest visited URLs like 'www.google.com', 'www.google.fr'
 ```
 
 ### Using Globbing Characters:
